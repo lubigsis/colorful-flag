@@ -1,0 +1,115 @@
+
+
+body{
+    background-color: rgb(211, 188, 188);
+}
+
+.bandera{
+    list-style: none;
+    font-size: 42px;
+    width: 600px;
+    margin: auto;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.bandera li {
+    border: 1px black solid;
+}
+
+.bandera  li a{
+    text-decoration: none;
+    font-family: monospace;
+    display: block;
+    padding: 10px;
+}
+
+
+/*.....  Trato de hacer el efecto de que la escritura aparezca al pasar el mouse*/
+#rojo{
+    background-color: red;    
+}
+#vida{
+    color: red;
+}
+
+/*::::::::::::::::::::::::::*/
+
+#anaranjado{
+    background-color: orange;
+}
+#salud{
+    color: orange;
+}
+
+/*::::::::::::::::::::*/
+
+#amarillo{
+    background-color: yellow;
+}
+#luz{
+    color: yellow;
+}
+
+/*:::::::::::::::::::::::*/
+
+#verde{
+    background-color: green;
+}
+#naturaleza{
+    color: green;
+}
+
+/*::::::::::::::::::::::::*/
+
+#indigo{
+    background-color: indigo;
+}
+#armonia{
+    color: indigo;
+}
+
+/*::::::::::::::::::::::::::*/
+
+#violeta{
+    background-color: purple;
+}
+#espiritu{
+    color: purple;
+}
+
+/*.......Elijo los colores que quiero que aparezcan al pasar el puntero..........................................*/
+
+#rojo a:hover{
+    background-color: rgb(171, 14, 14);
+    color: white;
+   
+}
+
+#anaranjado a:hover{
+    background-color: rgb(192, 127, 6);
+    color: white;
+}
+
+#amarillo a:hover{
+    background-color: rgb(169, 169, 14);
+    color: white;
+}
+
+#verde a:hover{
+    background-color: rgb(7, 92, 7);
+    color: white;
+}
+
+#indigo a:hover{
+    background-color: rgb(57, 7, 92);
+    color: white;
+}
+
+#violeta a:hover{
+    background-color: rgb(75, 6, 75);
+    color: white;
+}
+
+
+
